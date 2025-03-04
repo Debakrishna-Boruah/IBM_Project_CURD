@@ -37,7 +37,7 @@ export default function EditTopicForm({ id, title, description }) {
       <input
         onChange={(e) => setNewTitle(e.target.value)}
         value={newTitle}
-        className="border border-slate-500 px-8 py-2 rounded-xl"
+        className="border border-slate-500 px-8 py-2 rounded-xl outline-none"
         type="text"
         placeholder="Topic Title"
       />
@@ -45,7 +45,7 @@ export default function EditTopicForm({ id, title, description }) {
       <input
         onChange={(e) => setNewDescription(e.target.value)}
         value={newDescription}
-        className="border border-slate-500 px-8 py-2 rounded-xl"
+        className="border border-slate-500 px-8 py-2 rounded-xl outline-none"
         type="text"
         placeholder="Topic Description"
       />

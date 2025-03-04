@@ -41,7 +41,7 @@ export default function AddTopic() {
       <input
         onChange={(e) => setTitle(e.target.value)}
         value={title}
-        className="border border-slate-500 px-8 py-2 rounded-2xl"
+        className="border border-slate-500 px-8 py-2 rounded-2xl outline-none"
         type="text"
         placeholder="Topic Title"
       />
@@ -49,7 +49,7 @@ export default function AddTopic() {
       <input
         onChange={(e) => setDescription(e.target.value)}
         value={description}
-        className="border border-slate-500 px-8 py-2 rounded-2xl "
+        className="border border-slate-500 px-8 py-2 rounded-2xl outline-none"
         type="text"
         placeholder="Topic Description"
       />
