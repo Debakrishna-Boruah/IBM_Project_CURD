@@ -26,11 +26,11 @@ export default async function TopicsList() {
       {topics.map((t) => (
         <div
           key={t._id}
-          className="py-7 px-7 bg-gray-200 my-8 flex justify-between gap-5 items-start rounded-xl shadow-xl transition duration-100 ease-in-out hover:scale-110"
+          className="py-7 px-7 bg-gray-100 my-8 flex justify-between gap-5 items-start rounded-xl shadow-xl transition duration-100 ease-in-out hover:scale-110"
         >
-          <div>
+          <div >
             <h2 className="font-bold text-2xl">{t.title}</h2>
-            <div>{t.description}</div>
+            <div className="mt-2">{t.description}</div>
           </div>
 
           <div className="flex gap-2">

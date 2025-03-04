@@ -41,7 +41,7 @@ export default function AddTopic() {
       <input
         onChange={(e) => setTitle(e.target.value)}
         value={title}
-        className="border border-slate-500 px-8 py-2"
+        className="border border-slate-500 px-8 py-2 rounded-2xl"
         type="text"
         placeholder="Topic Title"
       />
@@ -49,14 +49,14 @@ export default function AddTopic() {
       <input
         onChange={(e) => setDescription(e.target.value)}
         value={description}
-        className="border border-slate-500 px-8 py-2"
+        className="border border-slate-500 px-8 py-2 rounded-2xl "
         type="text"
         placeholder="Topic Description"
       />
 
       <button
         type="submit"
-        className="bg-green-600 font-bold text-white py-3 px-6 w-fit"
+        className="bg-black rounded-2xl font-bold text-white py-3 "
       >
         Add Topic
       </button>
